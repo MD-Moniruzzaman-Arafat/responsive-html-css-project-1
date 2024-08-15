@@ -83,3 +83,38 @@ nav ul li a {
   border: none;
   border-radius: 5px;
 }
+
+/* love_enjoy */
+#love_enjoy {
+  display: flex;
+  justify-content: center;
+  gap: 51px;
+  margin: 50px 0;
+}
+#love_enjoy_title h1 {
+  border-left: 3px solid #ff900e;
+  padding-left: 10px;
+}
+#love_enjoy_title p {
+  margin: 10px 0;
+}
+.love_enjoy_card {
+  padding: 15px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  margin-top: 20px;
+}
+#love_enjoy_image {
+  width: 30%;
+}
+#love_enjoy_image img {
+  width: 100%;
+}
+#love_enjoy_image button {
+  background-color: #ff900e;
+  color: white;
+  border: none;
+  padding: 30px;
+  border-radius: 5px;
+  margin-top: -50px;
+  margin-left: -30px;
+}
