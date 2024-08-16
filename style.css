@@ -118,3 +118,24 @@ nav ul li a {
   margin-top: -50px;
   margin-left: -30px;
 }
+
+/* some_fact */
+#some_facts {
+  margin: 50px 0;
+}
+#some_fact_title {
+  margin: 50px auto;
+  width: 975px;
+}
+.some_fact_card {
+  text-align: center;
+  border: 1px solid #ff900e;
+  border-radius: 5px;
+  width: 100px;
+  padding: 20px;
+}
+#some_fact_card_container {
+  display: flex;
+  justify-content: center;
+  gap: 110px;
+}
