@@ -124,8 +124,8 @@ nav ul li a {
   margin: 50px 0;
 }
 #some_fact_title {
-  margin: 50px auto;
-  width: 975px;
+  text-align: center;
+  margin: 50px 0;
 }
 .some_fact_card {
   text-align: center;
@@ -163,4 +163,56 @@ nav ul li a {
 footer {
   text-align: center;
   margin: 150px 0;
+}
+
+/* responsive layout */
+@media only screen and (max-width: 600px) {
+  nav ul {
+    flex-direction: column;
+    gap: 30px;
+  }
+  #title {
+    text-align: center;
+    margin: 50px 0;
+    padding: 0 50px;
+  }
+  /* our_features */
+  #our_features {
+    display: flex;
+    flex-direction: column;
+  }
+  #feature_image {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+  }
+  /* love_enjoy */
+  #love_enjoy {
+    display: flex;
+    justify-content: center;
+    gap: 0px;
+    margin: 50px 100px;
+    flex-direction: column;
+  }
+  #love_enjoy_image {
+    width: 100%;
+    margin-top: 50px;
+  }
+  /* some_fact */
+
+  #some_fact_card_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 110px;
+    flex-direction: column;
+  }
+  /* our_sponspors */
+  #our_sponspors_img {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+  }
 }
